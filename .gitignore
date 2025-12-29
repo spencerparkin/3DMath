@@ -42,3 +42,4 @@ ipch/
 .*.dblite
 .*.swp
 .vscode/
+build/
