@@ -66,3 +66,5 @@ set(3DMATH_SOURCES
 )
 
 add_library(3DMathLibrary STATIC ${3DMATH_SOURCES})
+
+target_include_directories(3DMathLibrary PUBLIC Source)
